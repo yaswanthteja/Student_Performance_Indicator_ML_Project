@@ -30,14 +30,15 @@ Step1 :
 2. Create a local repository 'ml project' and open it in code editor like VS Code
 
 3. Create  virtual environment  by using this 
-
+```
 conda create -p venv python==3.8 -y
-
+```
 and Activate an environment 'venv' 
+
 by using 
-
+```
 conda activate venv/
-
+```
 4. Create a 'README.md' file in 'ml project' folder
 
 5. Sync the GitHub and Local Repositories and push the code to GitHub Repo using #githubactions .
@@ -84,8 +85,9 @@ install_requires=get_requirements('requirements.txt')
 in that src folder create a  __init__.py file
 
 11. In terminal, execute the following
+```
   pip install -r requirements.txt
-
+```
 12. 'mlproject.egg-info' indicated that your package is getting installed.
 
 13. push all the files to #github .
