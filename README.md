@@ -111,3 +111,76 @@ in that src folder create a  __init__.py file
 7. requirements.txt
 8. setup.py
 ```
+
+Step-2  of End To End ML Project With Deployment
+
+1. Project Structure
+2. Logging
+3. Exception Handling
+
+
+
+
+
+
+Entire project implementation will be happening inside the Source Folder.
+1. Create the "component" folder inside the 'src' folder. Inside the "component" folder, create: project structre like this
+
+```
+ >src
+     |--|>components 
+           |- __init__.py
+           |- data_ingestion.py
+           |- data_transformation.py
+           |- model_trainer.py
+      
+     |-->pipeline
+            |--- __init__.py
+            |--- train_pipeline.py
+            |--- predict_pipeline.py
+     
+      |--- logger.py
+      |--- exception.py               : Create custom exception.
+      |--- utils.py
+      |--- __init__.py
+
+```
+
+
+1.1 '__init__.py'
+1.2 data_ingestion.py
+1.3 data_tranformation.py
+1.4 model_trainer.py
+Here, we can add "data_validation.py" and "model_evaluation.py"
+
+2. Create "pipeline" Folder inside "src" folder. Inside "pipeline" folder create:
+2.1 __init__.py
+2.2 train_pipeline.py
+2.3 predict_pipeline.py
+
+3. Create three important files inside "src" folder.
+3.1 logger.py
+3.2 exception.py: Create custom exception.
+3.3 utils.py
+
+
+
+
+4. Prepare the logging.py file to log the actions
+
+5. utils.py file will be prepared in next part Step 3
+
+6. Commit the changes in GitHub
+
+
+Files in "ml project" folders:
+1. mlproject.egg-info
+2. src
+3. venv
+4. .gitignore
+6. README.md
+7. requirements.txt
+8. setup.py
+
+
+
