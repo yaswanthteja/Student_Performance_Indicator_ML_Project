@@ -16,7 +16,7 @@ Prerequisites:
 
 
 
-Step1 :
+### Step1 :
 
 - setup the github repository
   - creating new virtual environment
@@ -112,7 +112,7 @@ in that src folder create a  __init__.py file
 8. setup.py
 ```
 
-Step-2  of End To End ML Project With Deployment
+### Step-2  of End To End ML Project With Deployment
 
 1. Project Structure
 2. Logging
