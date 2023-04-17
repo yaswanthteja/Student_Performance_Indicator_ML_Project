@@ -1,4 +1,7 @@
 pandas
 numpy
 seaborn
--e .
+matplotlib
+catboost
+xgboost
+# -e .    # for creating the package
