@@ -173,7 +173,7 @@ Here, we can add "data_validation.py" and "model_evaluation.py"
 6. Commit the changes in GitHub
 
 
-Files in "ml project" folders:
+# Files in "ml project" folders:
 1. mlproject.egg-info
 2. src
 3. venv
