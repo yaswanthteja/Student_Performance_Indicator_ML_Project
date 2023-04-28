@@ -183,4 +183,9 @@ Here, we can add "data_validation.py" and "model_evaluation.py"
 8. setup.py
 
 
+End To End #machinelearning Project With #deployment - PART 3
+1. Project Structure
+2. Exploratory Data Analysis
+3. Model Training
+
 
